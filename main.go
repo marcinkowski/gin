@@ -188,7 +188,7 @@ func scanChanges(watchPath string, excludeDirs []string, cb scanCallback) {
 
 			return nil
 		})
-		time.Sleep(500 * time.Millisecond)
+		time.Sleep(6000 * time.Millisecond)
 	}
 }
 
